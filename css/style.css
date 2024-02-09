@@ -1,0 +1,138 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue','Arial', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    background-color: #FFF; /* Fallback color */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Header Styles */
+header {
+    background-color: #1F2544;
+    padding: 20px 0;
+    color: #FFF;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Header Styles */
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for color change */
+}
+
+nav ul li a:hover {
+    color: #FFD0EC; /* Change color on hover */
+    transform: scale(1.1); /* Add a pop effect on hover */
+}
+
+
+/* Hero Section Styles */
+#hero {
+    background-color: #474F7A;
+    color: #FFF;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Movie Listings Section Styles */
+#movie-listings {
+    background-color: #81689D;
+    color: #FFF;
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* Promotions Section Styles */
+#promotions {
+    background-color: #FFD0EC;
+    color: #474F7A;
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* About Us Section Styles */
+#about-us {
+    
+    background-color: #FFF;
+    color: #474F7A;
+    padding: 80px 0;
+    text-align: center;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Footer Section Styles */
+footer {
+    background-color: #1F2544;
+    color: #FFF;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    transition: transform 0.3s ease; /* Add transition for pop effect */
+}
+
+.social-links a:hover {
+    transform: scale(1.2); /* Add a pop effect on hover */
+    color: #FFD0EC;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+iframe{
+    border-radius: 8px;
+}
+
+.list-unstyled{
+    list-style-type: none;
+    display: flex;
+}
